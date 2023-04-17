@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>变量练习</title>
+		<script type="text/javascript">
+			var time = prompt("请输入时间");
+			if(time<= 12){
+				console.log("上午好");
+			}else{
+				console.log("下午好");
+			}
+			// 成绩大于90 非常优秀 80优秀 大于70 一般 小于70 需要努力
+			var score = prompt("请输入你的成绩: ");
+			if(score>= 90) {
+				console.log("非常优秀");
+			}else if (80 <= score <= 89) {
+				console.log("优秀");	
+			}else if (70 <= score <= 79) {
+				console.log("一般");	
+			}else if(score <70) {
+				console.log("需要努力");	
+			}else{
+				console.log("你是不是输入错误了");
+			}
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

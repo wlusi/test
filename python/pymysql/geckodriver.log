@@ -1,0 +1,37 @@
+1665650850887	geckodriver	INFO	Listening on 127.0.0.1:64745
+1665650854037	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\nirva\\AppData\\Local\\Temp\\rust_mozprofileSNA9s1"
+1665650854691	Marionette	INFO	Marionette enabled
+1665650854701	Marionette	INFO	Listening on port 64759
+Read port: 64759
+1665650855009	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\nirva\\AppData\\Local\\Temp\\rust_mozprofileSNA9s1\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1665650860093	Marionette	INFO	Stopped listening on port 64759
+1665650883873	geckodriver	INFO	Listening on 127.0.0.1:64818
+1665650887004	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\nirva\\AppData\\Local\\Temp\\rust_mozprofilet3EP8t"
+1665650887558	Marionette	INFO	Marionette enabled
+1665650887567	Marionette	INFO	Listening on port 64831
+Read port: 64831
+1665650887706	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\nirva\\AppData\\Local\\Temp\\rust_mozprofilet3EP8t\\search.json.mozlz4", (void 0)))
+1665650890501	Marionette	INFO	Stopped listening on port 64831
+JavaScript error: chrome://remote/content/marionette/cert.js, line 57: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1665656687206	geckodriver	INFO	Listening on 127.0.0.1:64541
+1665656690305	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\nirva\\AppData\\Local\\Temp\\rust_mozprofile4oTwTW"
+1665656690730	Marionette	INFO	Marionette enabled
+1665656690737	Marionette	INFO	Listening on port 64554
+Read port: 64554
+1665656690849	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\nirva\\AppData\\Local\\Temp\\rust_mozprofile4oTwTW\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1665657654170	Marionette	INFO	Stopped listening on port 64554
+1665660463737	geckodriver	INFO	Listening on 127.0.0.1:57037
+1665660466830	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\nirva\\AppData\\Local\\Temp\\rust_mozprofileYAm0nd"
+1665660467158	Marionette	INFO	Marionette enabled
+1665660467164	Marionette	INFO	Listening on port 57050
+Read port: 57050
+1665660467424	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\nirva\\AppData\\Local\\Temp\\rust_mozprofileYAm0nd\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.

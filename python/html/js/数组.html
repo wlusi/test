@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>数组</title>
+		<script type="text/javascript">
+			// 声明
+			// var array = [];
+			// var array1 = [1,2,3];
+			// var array2 = new Array();
+			// console.log(array1[0]);
+			// console.log(array1.length);
+			// var len = array1.length - 1
+			// for (var index = 0; index <= len; index++){
+			// 	var num = array1[index];
+			// 	console.log(num);
+			// }
+			// 数组添加
+			// array1.push(4,5);
+			// array1.unshift("a");
+			// 删除
+			// var b = array1.pop();
+			// console.log(b);
+			// array1.shift();
+			// console.log(array1);
+			
+			var array = [2,6,1,77,52,25,7,99];
+			var a = array[0];
+			for (var m = 1; m < array.length; m++){
+				if (array[m] > a){
+					a = array[m];
+				}
+			}
+			console.log("最大值" + a);
+			indexOf 数组里面有就返回索引，没有就返回-1
+			console.log(array.indexOf(1));
+			console.log(array.lastIndexOf(1));
+		
+		
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

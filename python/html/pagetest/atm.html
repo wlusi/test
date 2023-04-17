@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script type="text/javascript">
+			// 如果退出，弹出退出信息提示
+			var atm = prompt("操作:\n1.存钱\n2.取钱\n3.显示余额\n4.退出");
+			var money = 100;
+			while(money >= 0){
+				if(atm == "1"){
+					var cq = prompt("请输入存款金额");
+					money += cq;
+					alert("您当前的余额为:"+money);
+					var atm = prompt("操作:\n1.存钱 \n2.取钱 \n3.显示余额 \n4.退出");
+				}
+				if(atm == "2"){
+					var qq = parseInt(prompt("请输入您的取款金额")); 
+					money -= qq;
+					alert("您的取款金额为:"+ money);
+					var atm = prompt("操作:\n1.存钱\n2.取钱\n3.显示余额\n4.退出");
+				}
+				if(atm == "3"){
+					var ye = money;
+					alert("您当前余额为:" + money);
+					var atm = prompt("操作:\n1.存钱\n2.取钱\n3.显示余额\n4.退出");
+				}
+				if(atm == "4"){
+					break;
+				}}
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

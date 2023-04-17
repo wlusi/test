@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script type="text/javascript">
+			// 对象声明方式1
+			var obj =  {
+				name : '璐斯',
+				age : '18岁',
+				job : '学生',
+				say : function(){
+					console.log('考100分');
+				}
+			};
+			// 调用
+			console.log(obj.name);
+			console.log(obj['age']);
+			obj.say();
+			console.log("**************")
+			// 对象的遍历
+			for (var key in obj){
+				// console.log(key);// 属性名
+				console.log(obj[key]);
+			}
+			console.log("***************")
+			
+			// 对象声明方式2
+			var rose= new Object();
+				rose.name = '肖战';
+				rose.age = '30岁';
+				rose.job = '全能';
+				rose.say = function(){
+					console.log('颜值100分');
+				}
+			console.log(rose.name);
+			rose.say();
+			// 对象声明方式3
+			function Star(){
+				this.name = arguments[0];
+				this.age = arguments[1];
+				this.techang = function(){
+					console.log('爱寻找美食');
+				}
+			}
+			var one = new Star("甜心格格","18");
+			console.log(one.name,one.age);
+			one.techang()
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
